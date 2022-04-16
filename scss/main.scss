@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+.left-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 30px;
+}
+
+    article h3 {
+        margin-bottom: 10px;
+       
+        
+    }
+
+
+    article p {
+        text-align: justify;
+          color: grey;
+        font-size: 1em;
+    }
+
+
+
+    .article-1 {
+        width: 50%;
+
+    }
+
+    .article-2 {
+        width: 50%;
+
+    }
+
+    article img {
+        width: 100%;
+        background-size: cover;
+
+    }
+}
